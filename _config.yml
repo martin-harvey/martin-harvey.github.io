@@ -20,17 +20,19 @@
 
 title: Martin's Blog
 description: >- # this means to ignore newlines until "baseurl:"
-  My blog where I either write fun, interesting posts about anything I like or I scream into the void. 
-  
-  That can be your pick. 
+  Hi, welcome to my blog. Hopefully you find  it interesting, but I wouldn't get my hopes up.  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: martin-harvey
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+
+minima:
+  skin: dark
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
